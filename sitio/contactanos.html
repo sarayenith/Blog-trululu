@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+	<title>blog trululu</title>
+
+</head>
+<body>
+	<header class="row">
+		<img src="img/logo.trululu.svg" alt="logo de trululu" class="col-12 col-sm-12 col-md-12 col-lg-4 paginicio">
+
+		<nav class="navbar navbar-expand-lg bg-body-tertiary col-12 col-sm-12 col-md-9 col-lg-4 ms-auto">
+		  <div class="container-fluid">
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarNav">
+		      <ul class="navbar-nav ms-auto">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="contactanos.html">Contáctanos</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	</header>
+	
+
+<section class="hero-contacto">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-md-6 texto-contacto">
+                <h1>Contáctanos</h1>
+                <div class="linea-contacto"></div>
+
+                <p>
+                    Estamos aquí para ayudarte y escucharte.
+                    Puedes dejar aquí tus dudas, preguntas o
+                    recomendaciones para mejorar nuestros productos.
+                </p>
+            </div>
+
+            <div class="col-md-6 imagen-contacto">
+                <img src="img/sobre.png"
+                     alt="Ilustración de un sobre con una carta"
+                     class="img-fluid">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="formulario-contacto">
+    <div class="container">
+
+        <h2>Aquí puedes escribir</h2>
+
+        <form action="#" method="post">
+
+            <div class="mb-4">
+                <label for="nombre" class="form-label">
+                    Nombre completo
+                </label>
+
+                <input type="text"
+                       class="form-control"
+                       id="nombre"
+                       name="nombre"
+                       placeholder="Escribe tu nombre"
+                       required>
+            </div>
+
+            <div class="mb-4">
+                <label for="correo" class="form-label">
+                    Correo electrónico
+                </label>
+
+                <input type="email"
+                       class="form-control"
+                       id="correo"
+                       name="correo"
+                       placeholder="Escribe tu correo"
+                       required>
+            </div>
+
+            <div class="mb-4">
+                <label for="asunto" class="form-label">
+                    Asunto
+                </label>
+
+                <input type="text"
+                       class="form-control"
+                       id="asunto"
+                       name="asunto"
+                       placeholder="Escribe el asunto"
+                       required>
+            </div>
+
+            <div class="mb-4">
+                <label for="mensaje" class="form-label">
+                    Mensaje
+                </label>
+
+                <textarea class="form-control"
+                          id="mensaje"
+                          name="mensaje"
+                          placeholder="Escribe tu mensaje"
+                          rows="6"
+                          required></textarea>
+            </div>
+
+            <div class="text-center boton-enviar">
+                <button type="submit" class="btn btn-enviar">
+                    Enviar mensaje
+                </button>
+            </div>
+
+        </form>
+
+    </div>
+</section>
+
+	
+<footer class="footer-empresa">
+    <div class="container">
+        <div class="row align-items-center text-center text-md-start">
+
+            <!-- Logo a la izquierda -->
+            <div class="col-12 col-md-4 mb-3 mb-md-0">
+            	<a href="index.html">
+            		<img src="img/logo.trululu.svg" alt="Logo de la empresa"
+                     class="logo-footer">
+            	</a>
+                
+            </div>
+
+            <div class="col-12 col-md-4 mb-3 mb-md-0 text-center">
+                <h5>Síguenos</h5>
+
+                <div class="redes-sociales">
+                    <a href="https://www.tiktok.com/@trululu.oficial?is_from_webapp=1&sender_device=pc" aria-label="TikTok">
+                        <img src="img/tiktok.png" alt="TikTok">
+                    </a>
+
+                    <a href="https://www.facebook.com/trululu.oficial/?locale=es_LA" aria-label="Facebook">
+                        <img src="img/facebook.png" alt="Facebook">
+                    </a>
+
+                    <a href="https://www.instagram.com/trululu.oficial?srtk=ZDNlZDc0MzIxNw==" aria-label="Instagram">
+                        <img src="img/instagram.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 text-center text-md-end">
+                <p class="derechos-footer">
+                    © 2026 Nombre de la empresa.
+                    Todos los derechos reservados.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+
+
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
